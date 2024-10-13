@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+form {
+    text-transform: uppercase;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    transform: all 0.2s linear;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    min-height: 100vh;
+    /* background: #285A84; */
+    background: linear-gradient(90deg, #285A84 0%, #3477B7 40%, #4C6EA4 100%);
+    padding-bottom: 4.3rem;
+}
+
+.container form {
+    padding: 1.3rem;
+    width: 50rem;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container form .logo-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container form img {
+    width: 200px;
+    height: 150px;
+    align-items: center;
+}
+
+.container form .form-row {
+    /* display: flex; */
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.container form .form-row .form-column {
+    flex: 1 1 15.75rem;
+}
+
+
+.container form .form-row>h2 {
+    font-size: 1.3rem !important;
+    color: #285A84 !important;
+    padding-bottom: 5px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.container form .form-row>h3 {
+    font-size: 1.3rem !important;
+    color: #285A84 !important;
+    padding-bottom: 5px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.container form .form-row>p {
+    color: gray;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.container form .form-column>h3 {
+    color: #964B00;
+    font-size: 1.2rem;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.container form .form-row .form-column .input-box {
+    margin: 1rem 0;
+}
+
+.container form .form-row .form-column .input-box span {
+    margin-bottom: 0.8rem;
+    display: block;
+}
+
+.container form .form-row .form-column .input-box input {
+    width: 100%;
+    padding: 10px 5px;
+    font-size: 15px;
+    text-transform: none;
+}
+
+.container form .form-row .form-column .input-box input:focus {
+    border: 1px solid black;
+}
+
+
+.container form .donate-now-btn {
+    width: 100%;
+    padding: 1rem;
+    background-color: #285A84;
+    font-size: 1.1rem;
+    margin-top: 5px;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.container form .donate-now-btn:hover {
+    background-color: #3477B7;
+}

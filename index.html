@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="Assets/logo without bg.png" alt="">
+        </div>
+        <ul id="dropdownmenu" class="dropdownMenu">
+            <li><a href="index.html" class="main-list">Home</a></li>
+            <li>
+                <a href="adopt-a-pet.html" class="main-list">Adopt A Pet</a>
+                <!-- <ul class="dropdown">
+                    <li><a href="" class="dropdown-list">Adopt A DOg</a></li>
+                    <li><a href="" class="dropdown-list">Adopt A Cat</a></li>
+                    <li><a href="" class="dropdown-list">Adopt A Rabbit</a></li>
+                </ul> -->
+            </li>
+            <li>
+                <a href="" class="main-list">Ways To Help <i class="fa-solid fa-caret-down"></i></a>
+                <ul class="dropdown">
+                    <li><a href="donation.html" class="dropdown-list">Donate</a></li>
+                    <li><a href="volunteer.html" class="dropdown-list">Volunteer</a></li>
+                </ul>
+            </li>
+            <li><a href="aboutus.html" class="main-list">About Us</a></li>
+
+        </ul>
+        <div class="hamburg" onclick="toggleDropdown()">
+            
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" class="main-grid-item-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+    <line x1="21" x2="3" y1="10" y2="10" />
+    <line x1="21" x2="3" y1="6" y2="6" />
+    <line x1="21" x2="3" y1="14" y2="14" />
+    <line x1="21" x2="3" y1="18" y2="18" />
+  </svg>
+  
+        </div>
+    </nav>
+
+
+    <div class="homepage-banner">
+        <img class="homepage-banner-img" src="Assets/homepage-banner.jpg" alt="PawMatch">
+        <span class="homepage-banner-text">Creating Families, Finding Yours</span>
+    </div>
+
+
+    <main class="homepage-main-sec">
+
+        <section class="homepage-first-sec">
+
+            <div class="homepage-intro-container">
+                <h1 class="homepage-heading">Building a Better Community Together</h1>
+                <p>Welcome to PawMatch! We're thrilled to have you join our community of animal lovers. At PawMatch, we
+                    believe every pet deserves a loving home. Our platform connects adoptable animals with perfect
+                    families, providing detailed profiles and helpful resources.</p>
+            </div>
+
+            <div class="homepage-item-container">
+                <a href="donation.html">
+                <div class="homepage-item-div">
+                    <img class="homepage-itme-img" src="Assets/donation-banner.jpg" alt="">
+                    <span class="homepage-itme-img-txt">Donate</span>
+                </div>
+            </a>
+
+            <a href="adopt-a-pet.html">
+                <div class="homepage-item-div">
+                    <img class="homepage-itme-img" src="Assets/adopt-a-pet-banner.jpg" alt="">
+                    <span class="homepage-itme-img-txt">Adopt A Pet</span>
+                </div>
+            </a>
+
+            <a href="volunteer.html">
+                <div class="homepage-item-div">
+                    <img class="homepage-itme-img" src="Assets/volunteer-banner.jpg" alt="">
+                    <span class="homepage-itme-img-txt">Volunteer</span>
+                </div>
+            </a>
+
+            </div>
+        </section>
+
+        <section class="homepage-second-sec">
+            <div class="homepage-second-container">
+                <h2 class="homepage-sub-heading">How to Adopt a Pet</h2>
+                <p>Ready to find your new furry friend? Adopting a pet is a rewarding experience. Here's a brief
+                    overview of our adoption process:
+                <ul>
+                    <li>- Browse our adoptable pets</li>
+                    <li>- Meet and greet with your match</li>
+                    <li>- Finalize the adoption</li>
+                </ul>
+                </p>
+                <a href="adopt-a-pet.html#how-to-adopt"><span>Learn More</span></a>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-first-sec footer-column">
+                <img class="footer-logo" src="Assets/footer-logo.png" alt="PawMatch">
+                <div class="footer-icons-div">
+                    <i class="fab fa-facebook footer-icons"></i>
+                    <i class="fab fa-instagram footer-icons"></i>
+                    <i class="fab fa-twitter footer-icons"></i>
+                    <i class="fab fa-linkedin footer-icons"></i>
+                </div>
+            </div>
+            <div class="footer-second-sec footer-column">
+                <h2 class="footer-heading">Useful Links</h2>
+                <ul>
+                    <li class="footer-links"><a href="index.html">Home</a></li>
+                    <li class="footer-links" style="line-height: 1.5rem;"><a href="adopt-a-pet.html">Adopt A Pet</a>
+                    </li>
+                    <li class="footer-links"><a href="donation.html">Donate</a></li>
+                    <li class="footer-links"><a href="volunteer.html">Volunteer</a></li>
+                    <li class="footer-links"><a href="aboutus.html">About Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-third-sec footer-column">
+                <h2 class="footer-heading">Contact Us</h2>
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-envelope footer-icons"></i>
+                        <span>Email</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-phone-volume footer-icons"></i>
+                        <span>Contact</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-location-dot footer-icons"></i>
+                        <span>Gulshan-e-Iqbal, Karachi</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-text">
+            <p>All rights reserved by <a href="index.html">PawMatch</a> &copy; 2024.</p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PawMatch</title>
+    <link rel="stylesheet" href="adopt-a-pet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+
+<body>
+    <!-- <nav class="navbar ">
+        <div class="logo">
+            <img src="Assets/logo without bg.png" alt="PawMatch">
+        </div>
+
+        <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ADOPT A PET</a></li>
+            <li><a href="">ABOUT US</a></li>
+            <li><a href="">FEEDBACK</a></li>
+            
+        </ul>
+    </nav> -->
+
+    <nav class="navbar">
+        <div class="logo">
+            <img src="Assets/logo without bg.png" alt="">
+        </div>
+        <ul id="dropdownmenu" class="dropdownMenu">
+            <li><a href="index.html" class="main-list">Home</a></li>
+            <li>
+                <a href="adopt-a-pet.html" class="main-list">Adopt A Pet</a>
+                <!-- <ul class="dropdown">
+                    <li><a href="" class="dropdown-list">Adopt A DOg</a></li>
+                    <li><a href="" class="dropdown-list">Adopt A Cat</a></li>
+                    <li><a href="" class="dropdown-list">Adopt A Rabbit</a></li>
+                </ul> -->
+            </li>
+            <li>
+                <a href="" class="main-list">Ways To Help <i class="fa-solid fa-caret-down"></i></a>
+                <ul class="dropdown">
+                    <li><a href="donation.html" class="dropdown-list">Donate</a></li>
+                    <li><a href="volunteer.html" class="dropdown-list">Volunteer</a></li>
+                </ul>
+            </li>
+           <li><a href="aboutus.html" class="main-list">About Us</a></li>
+
+        </ul>
+        <div class="hamburg" onclick="toggleDropdown()">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" class="main-grid-item-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                <line x1="21" x2="3" y1="10" y2="10" />
+                <line x1="21" x2="3" y1="6" y2="6" />
+                <line x1="21" x2="3" y1="14" y2="14" />
+                <line x1="21" x2="3" y1="18" y2="18" />
+              </svg>
+              
+                    </div>
+    </nav>
+
+
+    <div class="banner">
+        <img class="banner-img" src="Assets/adopt-a-pet-banner.jpg" alt="PawMatch" style="width: 100%;">
+        <span class="banner-text">Find Your Perfect PawMatch</span>
+    </div>
+
+
+    <main class="adopt-a-pet-main-sec">
+
+        <section class="adopt-a-pet">
+            <h1 class="adopt-a-pet-heading">Adopt A Pet</h1>
+
+            <div class="adopt-a-pet-img-container">
+                <a href="adopt-a-dog.html">
+                    <div class="adopt-a-pet-img-div dog">
+                        <img class="adopt-a-pet-img" src="Assets/dog.jpg" alt="Adopt a dog">
+                        <span class="img-txt">Adopt A Dog</span>
+                    </div>
+                </a>
+
+                <a href="dynamic-page.html">
+                    <div class="adopt-a-pet-img-div ">
+                        <img class="adopt-a-pet-img" src="Assets/cat.jpg" alt="Persian Cat">
+                        <span class="img-txt">Adopt A Cat</span>
+                    </div>
+                </a>
+
+                <div class="adopt-a-pet-img-div rabbit">
+                    <img class="adopt-a-pet-img" src="Assets/rabbit.jpg" alt="Persian Cat">
+                    <span class="img-txt">Adopt A Rabbit</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="description-container">
+            <div class="description-text">
+                <h1 style="color: #285A84;"> Find Your Perfect PawMatch</h1>
+                <h2>Welcome to PawMatch!</h2>
+
+                <p> We're thrilled to have you join our community of animal lovers. At PawMatch, we believe that every
+                    pet deserves a loving home. Our platform is designed to connect adoptable animals with their perfect
+                    families. </p>
+
+                <p class="description-para">Browse our extensive database of furry friends, from playful puppies to
+                    cuddly kittens and more. Each profile provides detailed information about the pet's personality,
+                    breed, and care requirements. We also offer helpful resources like pet care tips and adoption
+                    advice.</p>
+
+            </div>
+
+            <div class="description-icons">
+                <p><i class="fa-solid fa-envelope icon-for-discription"></i> Email</p>
+                <p><i class="fa-solid fa-phone-volume icon-for-discription"></i> Contact</p>
+                <p><i class="fa-solid fa-location-dot icon-for-discription"></i> Gulshan-e-Iqbal Block-4, Karachi </p>
+                <!-- <p class="timing">Open for walk-in adoptions 11 a.m. to 6 p.m. every day.</p> -->
+            </div>
+        </section>
+
+        <section id="how-to-adopt" class="how-to-adopt-pet">
+            <div class="how-to-adopt-pet-heading">
+                <h1>How to Adopt Your Perfect PawMatch</h1>
+            </div>
+
+            <div class="cat-for-homepage-bottom-container">
+
+                <div class="cat-for-homepage-bottom">
+                    <img src="Assets/cat-for-homepage-bottom.jpg" alt="" class="pawpic">
+                </div>
+
+                <div class="step-1">
+                    <p>
+                    <h2 class="steps-heading">Step 1: Browse Our Adoptable Animals</h2>
+                    Discover your perfect furry companion from our diverse range of adoptable animals. Browse through
+                    profiles of dogs, cats, and other pets, each with detailed information about their personality,
+                    breed, and care requirements. </p>
+                </div>
+            </div>
+
+            <div class="dog-for-homepage-bottom-container">
+
+                <div class="step-2">
+                    <p>
+                    <h2 class="steps-heading">Step 2: Meet and Greet</h2>
+                    Once you've found a potential match, schedule a meet and greet. Visit our adoption centers or
+                    contact foster parents directly to spend quality time with the animal. This will help you determine
+                    if it's the right fit for your lifestyle.</p>
+                </div>
+
+                <div class="dog-for-homepage-bottom">
+                    <img src="Assets/dog-for-homepage-bottom.jpg" alt="" class="pawpic">
+                </div>
+            </div>
+            </div>
+
+            <div class="rabbit-for-homepage-bottom-container">
+                <div class="rabbit-for-homepage-bottom">
+                    <img src="Assets/rabbit-for-homepage-bottom.jpg" alt="" class="pawpic">
+                </div>
+
+                <div class="step-3">
+                    <p>
+                    <h2 class="steps-heading">Step 3: Adopt Today</h2>
+                    If you've decided to adopt, we'll guide you through the adoption process. Be prepared to stay for
+                    counseling and take your new pet home the same day. Bring a leash, carrier, or other necessary
+                    supplies.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-first-sec footer-column">
+                <img class="footer-logo" src="Assets/footer-logo.png" alt="PawMatch">
+                <div class="footer-icons-div">
+                    <i class="fab fa-facebook footer-icons"></i>
+                    <i class="fab fa-instagram footer-icons"></i>
+                    <i class="fab fa-twitter footer-icons"></i>
+                    <i class="fab fa-linkedin footer-icons"></i>
+                </div>
+            </div>
+            <div class="footer-second-sec footer-column">
+                <h2 class="footer-heading">Useful Links</h2>
+                <ul>
+                    <li class="footer-links"><a href="index.html">Home</a></li>
+                    <li class="footer-links" style="line-height: 1.5rem;"><a href="adopt-a-pet.html">Adopt A Pet</a>
+                    </li>
+                    <li class="footer-links"><a href="donation.html">Donate</a></li>
+                    <li class="footer-links"><a href="volunteer.html">Volunteer</a></li>
+                    <li class="footer-links"><a href="aboutus.html">About Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-third-sec footer-column">
+                <h2 class="footer-heading">Contact Us</h2>
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-envelope footer-icons"></i>
+                        <span>Email</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-phone-volume footer-icons"></i>
+                        <span>Contact</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-location-dot footer-icons"></i>
+                        <span>Gulshan-e-Iqbal, Karachi</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-text">
+            <p>All rights reserved by <a href="index.html">PawMatch</a> &copy; 2024.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
