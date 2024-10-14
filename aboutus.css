@@ -418,6 +418,59 @@ footer {
   }
   }
 
+
+  @media(min-width: 850px) {
+    .hamburg {
+        display: none;
+    }
+    .navbar ul {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+
+
+@media(max-width: 850px) {
+  .navbar ul {
+      display: none;
+  }
+
+  .hamburg {
+      display: block;
+      cursor: pointer;
+      font-size: 30px;
+      padding-right: 20px;
+  }
+
+  /* The dropdown menu, initially hidden */
+  #dropdownmenu {
+      display: none;
+  }
+
+  /* Menu styling */
+  .navbar ul li {
+      display: block;
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+  }
+
+  .navbar ul li a {
+      color: gray;
+      font-size: 18px;
+      text-decoration: none;
+      display: block;
+      padding: 15px;
+  }
+
+  .navbar ul li a:hover {
+      background-color: #285A84;
+      color: white;
+      border-radius: 25px;
+  }
+}
+
   @media(max-width:650px){
     .adp{
       display: flex;

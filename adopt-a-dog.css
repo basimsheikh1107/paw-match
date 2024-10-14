@@ -484,3 +484,86 @@ footer {
 }
 
 /* Footer Styling End */
+
+.hamburg{
+  display: none;
+}
+
+@media(min-width: 850px) {
+  .hamburg {
+      display: none;
+  }
+  .navbar ul {
+      display: flex;
+      justify-content: space-between;
+  }
+}
+
+@media(max-width:850px){
+  .navbar ul {
+    display: none;
+}
+  .dropdownMenu{
+    display: none;
+  }
+  .hamburg{
+    display: block;
+    cursor: pointer;
+    font-size: 30px;
+    padding-right: 20px;
+
+  }
+  body{
+    margin: 0;
+  }
+  .aboutus-banner{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .footer-icons-div{
+    display: flex;
+    flex-direction: column;
+    width: 3rem;
+    height: 2rem;
+  }
+
+  .footer-content{
+    margin: 0;
+    padding: 0%;
+  }
+
+  .navbar ul li {
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar ul li a {
+    color: gray;
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+}
+
+.navbar ul li a:hover {
+    background-color: #285A84;
+    color: white;
+    border-radius: 25px;
+}
+}
+@media(max-width:450px){
+  footer{
+    width: 100%;
+  }
+
+  .adopt-a-cat-banner-img{
+    width: 100%;
+  }
+  .footer-content{
+    width: 100%;
+  }
+  
+}
