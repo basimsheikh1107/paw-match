@@ -407,8 +407,21 @@ footer {
   /* Footer Styling End */
   
   @media(max-width:850px){
+
+    .navbar ul li a.main-list {
+      padding: 15px 20px;
+  }
+
+    #hom{
+      margin-top: 10%;
+    }
     #dropdownmenu{
       display: none;
+        margin-top: 6rem; 
+        position: absolute;
+        width: 60%;
+        z-index: 99;
+        background-color: #2b2a2a;
     }
 
     .navbar ul {
@@ -435,6 +448,7 @@ footer {
       padding: 10px;
       border-bottom: 1px solid #ddd;
       background-color: #2b2a2a;
+
       
       
   }
