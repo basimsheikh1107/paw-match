@@ -454,6 +454,7 @@ footer {
       display: block;
       padding: 10px;
       border-bottom: 1px solid #ddd;
+      background-color: #2b2a2a;
   }
 
   .navbar ul li a {
@@ -490,6 +491,35 @@ footer {
 
     }
 
+    .footer-icons-div{
+      display: flex;
+      flex-direction: column;
+    }
+    .footer-links{
+
+      display: none;
+    }
+
+    #hidden-link{
+      display: none;
+    }
+
+    .footer-icons{
+      width: o.25rem;
+      height: 0.5rem;
+    }
+    
+    .foot-txt{
+      font-size: small;
+    }
+
+     .foot-adj{
+      display: flex;
+      justify-content: space-between;
+      margin-left: 0;
+      margin-right: 0;
+      padding: 0;
+    }
    
 
   }

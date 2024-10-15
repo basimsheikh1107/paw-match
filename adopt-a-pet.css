@@ -598,3 +598,36 @@ footer {
   
 
 }
+@media(max-width:650px){
+
+  .footer-icons-div{
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-links{
+
+    display: none;
+  }
+
+  #hidden-link{
+    display: none;
+  }
+
+  .footer-icons{
+    width: o.25rem;
+    height: 0.5rem;
+  }
+  
+  .foot-txt{
+    font-size: small;
+  }
+
+   .foot-adj{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+  }
+
+}

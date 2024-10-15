@@ -222,7 +222,7 @@
         </section>
     </main>
 
-    <footer>
+    <footer class="foot-adj">
         <div class="footer-content">
             <div class="footer-first-sec footer-column">
                 <img class="footer-logo" src="Assets/footer-logo.png" alt="PawMatch">
@@ -234,39 +234,43 @@
                 </div>
             </div>
             <div class="footer-second-sec footer-column">
-                <h2 class="footer-heading">Useful Links</h2>
+                <h2 class="footer-heading" id="hidden-link">Useful Links</h2>
                 <ul>
                     <li class="footer-links"><a href="index.html">Home</a></li>
                     <li class="footer-links" style="line-height: 1.5rem;"><a href="adopt-a-pet.html">Adopt A Pet</a>
                     </li>
-                    <li class="footer-links"><a href="donation.html">Donate </a></li>
+                    <li class="footer-links"><a href="donation.html">Donate</a></li>
                     <li class="footer-links"><a href="volunteer.html">Volunteer</a></li>
-                    <li class="footer-links"><a href="">About Us</a></li>
+                    <li class="footer-links"><a href="aboutus.html">About Us</a></li>
                 </ul>
             </div>
+
             <div class="footer-third-sec footer-column">
                 <h2 class="footer-heading">Contact Us</h2>
                 <ul>
                     <li>
                         <i class="fa-solid fa-envelope footer-icons"></i>
-                        <span>Email</span>
+                        <span class="foot-txt">Email</span>
                     </li>
                     <li>
                         <i class="fa-solid fa-phone-volume footer-icons"></i>
-                        <span>Contact</span>
+                        <span class="foot-txt">Contact</span>
                     </li>
                     <li>
                         <i class="fa-solid fa-location-dot footer-icons"></i>
-                        <span>Gulshan-e-Iqbal, Karachi</span>
+                        <span class="foot-txt">Gulshan-e-Iqbal, Karachi</span>
                     </li>
                 </ul>
             </div>
         </div>
-        <div class="footer-text">
-            <p>All rights reserved by <a href="index.html">PawMatch</a> &copy; 2024.</p>
-        </div>
+       
     </footer>
+    <div class="footer-text">
+        <p>All rights reserved by <a href="index.html">PawMatch</a> &copy; 2024.</p>
+    </div>
 
+
+   
     <script>
         function toggleDropdown() {
             var dropdownMenu = document.getElementById("dropdownmenu");
